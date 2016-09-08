@@ -2,7 +2,10 @@ var http = require('http');
 
 function controller(req,res){
 	console.log('request url : ', req.url)
-	res.end('Good Morning');
+	if(req.url == '/male')
+		res.end("Good Morning, Sir");
+	
+	res.end("Good Morning");
 }
 
 
