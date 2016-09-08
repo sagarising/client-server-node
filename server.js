@@ -6,7 +6,7 @@ function controller(req,res){
 		res.end("Good Morning, Sir");
 	if(req.url == '/female')
 		res.end("Good Morning, Mam");
-	res.end("Good Morning");
+	res.end("Sorry I didn't get that!");
 }
 
 
