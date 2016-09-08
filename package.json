@@ -1,0 +1,19 @@
+{
+  "name": "client-server-node",
+  "version": "1.0.0",
+  "description": "simple http server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sagarising/client-server-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sagarising/client-server-node/issues"
+  },
+  "homepage": "https://github.com/sagarising/client-server-node#readme"
+}
