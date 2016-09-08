@@ -4,7 +4,8 @@ function controller(req,res){
 	console.log('request url : ', req.url)
 	if(req.url == '/male')
 		res.end("Good Morning, Sir");
-	
+	if(req.url == '/female')
+		res.end("Good Morning, Mam");
 	res.end("Good Morning");
 }
 
